@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <meta name="description" content="自己紹介サイト">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="destyle.css">
+        <link rel="stylesheet" href="css/style.css">  
+    </head>
+    <body>
+        <header>
+            <div class="header_nav">
+                <nav>
+                    <ul>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#works">WORKS</a></li>
+                        <li><a href="#skill">SKILL</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header_content">
+                <div class="header_img">
+                    <img src="imgs/top.jpg" alt="macの写真">
+                </div>
+                <div class="header_text">
+                    <p>ポートフォリオ。</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- 自己紹介 -->
+        <section class="profile" id="about">
+            <div class="title">
+                <h1>ABOUT</h1>
+                <p>私について</p>
+            </div>
+
+            <div class="container">
+                <div class="profile_wrap">
+                    <div class="pro_text">
+                        <p>1994年生まれ、滋賀県在住の村重茉由と申します。</p>
+                        <p>大学卒業後、通信業界で働きながら、オンラインスクールでコーディングを学びました。</p>
+                        <p>現在は、スピードを意識しながらLPサイトの模写をしたり、新しい技術を勉強したりしています。</p>
+                    </div>
+                    <div class="pro_img">
+                        <img src="imgs/profile.jpg" alt="プロフィール写真">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 作品 -->
+        <section class="works" id="works">
+                <div class="title">
+                    <h1>WORKS</h1>
+                    <p>作品紹介</p>
+                </div>
+
+                <div class="container2">
+                    <ul class="works_wrap">
+                        <li>
+                            <img src="imgs/site1.jpg" alt="架空サイト">
+                            <div class="works_text">
+                                <p>シャンプーのLPサイトです。</p>
+                                <p>20代〜40台の女性をターゲットにして作成しました。</p>
+                                <a href="https://mayu1218.github.io/site1/" class="btn" target="_blank">見てみる</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="imgs/site2.jpg" alt="架空サイト">
+                            <div class="works_text">
+                                <p>ランドセルのLPサイトです。</p>
+                                <p>お子様と一緒に見ていただけるように楽しいサイトにしました。</p>
+                                <a href="https://mayu1218.github.io/site2/" class="btn" target="_blank">見てみる</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="imgs/site3.jpg" alt="架空サイト">
+                            <div class="works_text">
+                                <p>病院のホームページです。</p>
+                                <p>幅広い年齢まで見ていただけるように分かりやすいサイトにしました。</p>
+                                <a href="https://mayu1218.github.io/site3/" class="btn" target="_blank">見てみる</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+
+        <!-- スキル -->
+        <section class="skill" id="skill">
+                <div class="title">
+                    <h1>SKILL</h1>
+                    <p>私のスキル</p>
+                </div>
+
+                <div class="container">
+                    <div class="skill_wrap">
+                        <div class="skill_l">
+                            <h3>フロント言語</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>jQuery</li>
+                            </ul>
+                        </div>
+                        <div class="skill_c">
+                            <h3>フレームワーク</h3>
+                            <ul>
+                                <li>Bootstrap</li>
+                                <li>Wordpress</li>
+                                <li>Sass</li>
+                            </ul>
+                        </div>
+                        <div class="skill_r">
+                            <h3>各種ツール</h3>
+                            <ul>
+                                <li>Github</li>
+                                <li>VSC</li>
+                                <li>FileZila</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- 問い合わせ -->
+        <section class="contact" id="contact">
+            <div class="title">
+                <h1>CONTACT</h1>
+                <p>お問い合わせ</p>
+            </div>
+
+            <div class="container">
+                <div class="form">
+                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf0dT1RgnMlDlc1MBeR-qrL_mYsr4qEp5tTR72VpEUEpVIRXw/formResponse"　method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                        <label for="form-name">お名前（会社名）</label>
+                        <p><input id="form-name" type="text" name="entry.1448942630" placeholder="山田　太郎" required=""></p>
+                        
+                        <label for="form-mail">メールアドレス</label>
+                        <p><input id="form-mail" type="email" name="entry.2060381880" placeholder="example@mail.co.jp" required=""></p>
+                        
+                        <label for="form-detail">お問い合わせ内容</label>
+                        <p><textarea id="form-detail" name="entry.1333031243" placeholder="ご自由にご記載下さい。" required=""></textarea></p>
+                        
+                        <p><button type="submit" name="button" value="送信する">送信する</button></p>
+                    </form>
+                    <script type="text/javascript">var submitted = false;</script>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='contact.html';}"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <nav>
+                <li><a href="#">TOP</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#works">WORKS</a></li>
+                <li><a href="#skill">SKILL</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </nav>
+            <p>&copy;mayu</p>
+        </footer>
+
+    </body>
+</html>
