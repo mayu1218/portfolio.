@@ -407,7 +407,8 @@ footer {
     }
     .skill_c {
         border-radius: 0;
-        border: 1px dashed $white;
+        border-right: 1px dashed $white;
+        border-left: 1px dashed $white;
     }
     .skill_l {
         border-radius: 40px 0 0 40px;
