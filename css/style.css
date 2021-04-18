@@ -432,7 +432,8 @@ footer nav li a {
   }
   .skill_c {
     border-radius: 0;
-    border: 1px dashed #F7F7F7;
+    border-right: 1px dashed #F7F7F7;
+    border-left: 1px dashed #F7F7F7;
   }
   .skill_l {
     border-radius: 40px 0 0 40px;
