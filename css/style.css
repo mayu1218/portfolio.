@@ -413,7 +413,7 @@ footer nav li a {
         -ms-flex-pack: start;
             justify-content: flex-start;
     text-align: center;
-    width: 100%;
+    width: 80%;
   }
   .skill_wrap h3 {
     font-size: 25px;
