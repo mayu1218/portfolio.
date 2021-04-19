@@ -531,6 +531,14 @@ footer nav li a {
 }
 
 @media screen and (max-width: 500px) {
+   .header_nav ul {
+    background-color: #FFE7E0;
+  }
+   .header_nav nav ul li {
+    padding: 10px 5px;
+    margin: 0;
+    border-radius: 0;
+  }
   .skill_r, .skill_c, .skill_l {
     padding: 20px;
     border-radius: 40px;
