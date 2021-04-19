@@ -538,5 +538,17 @@ footer nav li a {
     font-size: 15px;
     margin-bottom: 30px;
   }
+  .form input {
+  padding-left: 15px;
+  font-size: 18px;
+  }
+  .form textarea {
+  padding-left: 15px;
+  padding-top: 20px;
+  font-size: 18px;
+  }
+  .form button {
+  font-size: 18px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
