@@ -27,14 +27,14 @@ li {
 .container {
   width: 70%;
   max-width: 1200px;
-  min-width: 400px;
+  min-width: 300px;
   margin: 0 auto;
 }
 
 .container2 {
   width: 80%;
   max-width: 1500px;
-  min-width: 400px;
+  min-width: 300px;
   margin: 0 auto;
 }
 
@@ -414,6 +414,7 @@ footer nav li a {
             justify-content: flex-start;
     text-align: center;
     width: 80%;
+    margin: 0 auto;
   }
   .skill_wrap h3 {
     font-size: 25px;
@@ -526,6 +527,16 @@ footer nav li a {
     padding: 25px 5px;
     cursor: pointer;
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .skill_r, .skill_c, .skill_l {
+    padding: 20px;
+  }
+  .skill_wrap h3 {
+    font-size: 15px;
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
