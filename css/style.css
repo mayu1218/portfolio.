@@ -541,6 +541,9 @@ footer nav li a {
   .skill_wrap {
   flex-flow: column;
   }
+  .skill_wrap h3 {
+  margin-bottom: 15px;
+  }
   .form input {
   padding-left: 15px;
   font-size: 18px;
